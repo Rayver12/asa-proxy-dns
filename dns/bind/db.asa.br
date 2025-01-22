@@ -12,12 +12,12 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	ns
-@	IN	A	192.168.1.21
+@	IN	A	10.25.1.145
 	IN	MX	10	mail
 
-ns	IN	A	192.168.1.21
-mail	IN	A	192.168.1.21
-www	IN	A	192.168.1.21
+ns	IN	A	10.25.1.145
+mail	IN	A	10.25.1.145
+www	IN	A	10.25.1.145
 proxy	IN	CNAME	www
-sales	IN	A	192.168.1.21
-joao	IN	A	192.168.1.21
+sales	IN	A	10.25.1.145
+joao	IN	A	10.25.1.145
