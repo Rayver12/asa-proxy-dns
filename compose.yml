@@ -105,6 +105,8 @@ services:
       context: ./email
       dockerfile: Dockerfile
     image: email
+    volumes:
+      - ./email/spool:/var/spool/mail/
     container_name: email
     ports:
       - "25:25"
